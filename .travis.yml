@@ -3,6 +3,11 @@ language: scala
 scala:
   - 2.11.12
 
+cache:
+  directories:
+    - $HOME/.sbt
+    - $HOME/.ivy2
+
 script:
   - sbt ++$TRAVIS_SCALA_VERSION clean scalastyle coverage test coverageReport
 
