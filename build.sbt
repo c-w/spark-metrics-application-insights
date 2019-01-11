@@ -16,6 +16,10 @@ libraryDependencies += "com.microsoft.azure" % "applicationinsights-core" % "2.2
   ExclusionRule(organization = "io.grpc"),
   ExclusionRule(organization = "io.opencensus"))
 
+libraryDependencies += "org.scalatest" %% "scalatest" % "3.0.5" % "test"
+// FIXME: update to 2.4.0 when new jar is published
+libraryDependencies += "com.holdenkarau" %% "spark-testing-base" % "2.3.0_0.9.0" % "test"
+
 test in assembly := {}
 
 assemblyOption in assembly := (assemblyOption in assembly).value.copy(includeScala = false)
