@@ -1,5 +1,7 @@
 # spark-metrics-application-insights
 
+[![Build Status](https://travis-ci.org/CatalystCode/spark-metrics-application-insights.svg?branch=master)](https://travis-ci.org/CatalystCode/spark-metrics-application-insights)
+
 ## What's this?
 
 Spark Metrics integration for [Application Insights](https://docs.microsoft.com/en-us/azure/application-insights/app-insights-overview).
