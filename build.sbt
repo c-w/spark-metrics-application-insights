@@ -20,6 +20,9 @@ libraryDependencies += "org.scalatest" %% "scalatest" % "3.0.5" % "test"
 // FIXME: update to 2.4.0 when new jar is published
 libraryDependencies += "com.holdenkarau" %% "spark-testing-base" % "2.3.0_0.9.0" % "test"
 
+coverageMinimum := 80
+coverageFailOnMinimum := true
+
 test in assembly := {}
 
 assemblyOption in assembly := (assemblyOption in assembly).value.copy(includeScala = false)
