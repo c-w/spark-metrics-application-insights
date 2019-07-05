@@ -1,6 +1,6 @@
 # spark-metrics-application-insights
 
-[![Build Status](https://travis-ci.org/CatalystCode/spark-metrics-application-insights.svg?branch=master)](https://travis-ci.org/CatalystCode/spark-metrics-application-insights)
+[![Build Status](https://travis-ci.org/c-w/spark-metrics-application-insights.svg?branch=master)](https://travis-ci.org/c-w/spark-metrics-application-insights)
 
 ## What's this?
 
