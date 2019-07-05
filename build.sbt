@@ -17,8 +17,7 @@ libraryDependencies += "com.microsoft.azure" % "applicationinsights-core" % "2.2
   ExclusionRule(organization = "io.opencensus"))
 
 libraryDependencies += "org.scalatest" %% "scalatest" % "3.0.5" % "test"
-// FIXME: update to 2.4.0 when new jar is published
-libraryDependencies += "com.holdenkarau" %% "spark-testing-base" % "2.3.0_0.9.0" % "test"
+libraryDependencies += "com.holdenkarau" %% "spark-testing-base" % "2.4.0_0.12.0" % "test"
 
 coverageMinimum := 80
 coverageFailOnMinimum := true
